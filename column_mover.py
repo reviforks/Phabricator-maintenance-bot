@@ -32,9 +32,9 @@ client = Client.newFromCreds()
 
 work = [{'from': ['In Progress',
                   'Backlog'],
-         'project': 'to do',
+         'project': 'To Do',
          'to': 'Closed',
-         'status': ['Resolved']}
+         'status': ['Resolved']},
         ]
 for case in work:
     gen = client.getTasksWithProject(client.lookupPhid('#' + case['project']))
