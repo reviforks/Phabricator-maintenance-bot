@@ -30,11 +30,11 @@ class Checker():
 
 client = Client.newFromCreds()
 
-work = [{'from': ['In Progress',
-                  'Backlog'],
-         'project': 'To Do',
-         'to': 'Closed',
-         'status': ['Resolved']},
+work = [{'from': ['in_progress',
+                  'backlog'],
+         'project': 'to_do',
+         'to': 'closed',
+         'status': ['resolved']},
         ]
 for case in work:
     gen = client.getTasksWithProject(client.lookupPhid('#' + case['project']))
