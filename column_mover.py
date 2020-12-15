@@ -30,9 +30,9 @@ class Checker():
 
 client = Client.newFromCreds()
 
-work = [{'from': ['In progress',
+work = [{'from': ['In Progress',
                   'Backlog'],
-         'project': 'To Do',
+         'project': 'to do',
          'to': 'Closed',
          'status': ['Resolved']}
         ]
