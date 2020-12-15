@@ -32,7 +32,7 @@ client = Client.newFromCreds()
 
 work = [{'from': ['In progress',
                   'Backlog'],
-         'project': 'To do',
+         'project': 'To Do',
          'to': 'Closed',
          'status': ['Resolved']}
         ]
